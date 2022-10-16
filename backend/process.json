@@ -1,0 +1,20 @@
+{
+    "apps" : [{
+      "name": "geodic-app",
+      "script": "./server.js",
+      "env": {
+        "DB_HOST": "www.pavas.com.co",
+        "DB_USER": "usrpavas", 
+        "DB_PASS": "9A12)WHFy$2p4v4s",
+        "DB_DATABASE": "bdgeodic",
+        "PUBLIC_URL":"/"
+      },
+      "env_production": {
+        "DB_HOST": "www.pavas.com.co",
+        "DB_USER": "usrpavas", 
+        "DB_PASS": "9A12)WHFy$2p4v4s",
+        "DB_DATABASE": "bdgeodic",
+        "PUBLIC_URL":"/"
+      }
+    }]
+}
